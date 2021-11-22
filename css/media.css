@@ -1,0 +1,53 @@
+@media (max-width:1000px){
+    .ph-galer {
+        grid-template-columns: 50% 50%;
+    }
+}
+
+
+@media (max-width:970px){
+    .menu{
+        display: none;
+    }
+    .menu-mobile{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+        cursor: pointer;
+    }
+    #href-menu{
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        height: 10%;
+    }
+}
+@media (max-width:750px){
+    .card1{
+        grid-template-columns: 100%;
+    }
+    .biogra {
+        max-width: 90%;
+    }
+    #ph-me-bio{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (max-width:620px){
+    .title-content-text {
+        grid-template-columns: 100%;
+    }
+    #my-photo {
+        margin: auto;
+        display: flex;
+    }
+    .my-date {
+        align-items: center;
+    }
+    .ph-galer {
+        grid-template-columns: 100%;
+    }
+}
